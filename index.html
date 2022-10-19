@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <form class="sign-up" action="" method="POST">
+
+      <!-- Header of Form -->
+      <div class="header">
+        <h1>Create Account</h1>
+      </div>
+
+
+      <!-- Body of Form -->
+      <div class="form-body">
+        <div class="form-group">
+          <label for="firstName">First Name: </label>
+          <input type="text" id="firstName" placeholder="John">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name: </label>
+          <input type="text" id="lastName" placeholder="Doe">
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="email" id="email" placeholder="johndoe123@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="password">Password: </label>
+          <input type="password" id="password">
+        </div>
+        <div class="form-group">
+          <label for="age">Age: </label>
+          <input type="number" id="age" value="13" min="13" max="100">
+        </div>
+        <div class="form-group">
+          <label for="dob">DOB: </label>
+          <input type="date" id="date">
+        </div>
+        <input class="button" type="submit">
+      </div>
+
+
+      <!-- Footer of Form -->
+      <div class="form-footer">
+        <p>Copyright &#169; Skyler Hudson</p>
+      </div>
+    </form>
+  </body>
+</html>
